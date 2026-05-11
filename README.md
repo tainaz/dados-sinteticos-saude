@@ -19,6 +19,18 @@ O objetivo é disponibilizar dados realistas de operações em saúde sem expor 
 - Engenharia de dados
 - Testes de pipelines analíticos
 
-## Aviso
+## Sobre os dados sintéticos
 
-Todos os dados presentes neste repositório são sintéticos e não representam pacientes reais.
+Os dados deste projeto foram gerados artificialmente utilizando técnicas de geração de dados sintéticos aplicadas sobre propriedades estatísticas observadas em dados reais de operações de saúde.
+
+O objetivo foi preservar padrões operacionais relevantes, como:
+- distribuição de horários;
+- proporção de no-show;
+- lead time de agendamento;
+- distribuição etária;
+- mix de convênios;
+- padrões de agendamento.
+
+Nenhum dado real de pacientes, identificadores pessoais, informações protegidas de saúde (PHI) ou registros operacionais sensíveis estão presentes neste repositório.
+
+Os dados disponibilizados não permitem reidentificação de indivíduos ou organizações.
