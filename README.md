@@ -22,6 +22,7 @@ O objetivo é disponibilizar dados realistas de operações em saúde sem expor 
 ## Sobre os dados sintéticos
 
 Os dados deste projeto foram gerados artificialmente utilizando técnicas de geração de dados sintéticos aplicadas sobre propriedades estatísticas observadas em dados reais de operações de saúde.
+Os dados sintéticos foram gerados utilizando técnicas probabilísticas de modelagem estatística através da biblioteca SDV (Synthetic Data Vault).
 
 O objetivo foi preservar padrões operacionais relevantes, como:
 - distribuição de horários;
