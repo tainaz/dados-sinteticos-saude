@@ -1,13 +1,17 @@
 # Dados Sintéticos de Consultas Médicas
 
-Este projeto contém um dataset sintético de consultas médicas gerado artificialmente para fins educacionais, de pesquisa e portfólio.
+Este projeto contém um dataset sintético de consultas médicas gerado artificialmente para fins educacionais, pesquisa e portfólio.
 
 O objetivo é disponibilizar dados realistas de operações em saúde sem expor informações sensíveis ou dados reais de pacientes.
 
+---
+
 ## Conteúdo
 
-- Dataset sintético de consultas
+- Dataset sintético de consultas médicas
 - Dicionário de dados
+
+---
 
 ## Possíveis aplicações
 
@@ -19,12 +23,16 @@ O objetivo é disponibilizar dados realistas de operações em saúde sem expor 
 - Engenharia de dados
 - Testes de pipelines analíticos
 
+---
+
 ## Sobre os dados sintéticos
 
-Os dados deste projeto foram gerados artificialmente utilizando técnicas de geração de dados sintéticos aplicadas sobre propriedades estatísticas observadas em dados reais de operações de saúde.
-Os dados sintéticos foram gerados utilizando técnicas probabilísticas de modelagem estatística através da biblioteca SDV (Synthetic Data Vault).
+Os dados deste projeto foram gerados artificialmente utilizando técnicas de geração de dados sintéticos aplicadas sobre propriedades estatísticas observadas em dados reais de operações em saúde.
+
+A geração dos dados sintéticos foi realizada utilizando técnicas probabilísticas de modelagem estatística por meio da biblioteca SDV (Synthetic Data Vault).
 
 O objetivo foi preservar padrões operacionais relevantes, como:
+
 - distribuição de horários;
 - proporção de no-show;
 - lead time de agendamento;
@@ -34,4 +42,4 @@ O objetivo foi preservar padrões operacionais relevantes, como:
 
 Nenhum dado real de pacientes, identificadores pessoais, informações protegidas de saúde (PHI) ou registros operacionais sensíveis estão presentes neste repositório.
 
-Os dados disponibilizados não permitem reidentificação de indivíduos ou organizações.
+Os dados disponibilizados não permitem a reidentificação de indivíduos ou organizações.
